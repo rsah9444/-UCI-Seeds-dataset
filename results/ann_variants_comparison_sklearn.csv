@@ -1,0 +1,3 @@
+Variant,Hidden Layers,Activation,Solver,Alpha,Learning Rate,Max Iter,Train Accuracy,Test Accuracy
+"Variant A (Baseline, sklearn)","(16, 8)",relu,adam,0.0001,0.001,500,0.9642857142857143,0.8333333333333334
+"Variant B (Deeper + Tanh, sklearn)","(32, 16, 8)",tanh,adam,0.001,0.0005,700,1.0,0.9285714285714286
